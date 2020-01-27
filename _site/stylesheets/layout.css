@@ -109,6 +109,14 @@ em {
 	margin-right: 6px;
 }
 
+em1 {
+	font-style: normal;
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(100, 100, 100);
+	margin-right: 6px;
+}
+
 @media print {
 	@page {
 		margin: 15mm;
