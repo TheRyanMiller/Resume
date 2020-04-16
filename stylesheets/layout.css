@@ -18,7 +18,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-	color: #3c78d8;
+	color: #591977;
 }
 
 p, address {
@@ -36,7 +36,7 @@ p, address {
 
 header > h1, section > h1 {
 	font-family: "Oswald", "Georgia", "Times New Roman", serif;
-	color: #3c78d8;
+	color: #591977;
 }
 
 header > h1 {
