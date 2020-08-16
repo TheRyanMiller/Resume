@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:700|Open+Sans:400,700);
 
 body {
-	margin-top: 20px;
+	margin-top: 50px;
 	font-family: "Open Sans", "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 21px;
@@ -37,7 +37,7 @@ p, address {
 
 header > h1, section > h1 {
 	font-family: "Oswald", "Georgia", "Times New Roman", serif;
-	color: #591977;
+	color: var(--accent-color);
 }
 
 header > h1 {
@@ -223,10 +223,10 @@ a.navbar-link{
 	--bg-color: #fff;
 	--heading-color: #292922;
 	--border-color: #fff;
-	--accent-color: #591977;
+	--accent-color: #672a83;
 	--icon-color: black;
 	--link-color: #591977;
-	--accent-secondary-color: #502c92;
+	--accent-secondary-color: #7155a5;
 	--link-bg-color: #eaeaea;
 	--icon-color: black;
   }
@@ -239,10 +239,10 @@ a.navbar-link{
 	--bg-color: #242424;
 	--heading-color: #818cab;
 	--border-color: var(--bg-color);
-	--accent-color: #3f2275;
+	--accent-color: #7e44eb;
 	--link-color: #7e44eb;
 	--icon-color: #e1e1ff;
-	--accent-secondary-color: #502c92;
+	--accent-secondary-color: #7e44eb;
 	--link-bg-color: #333333;
 	--icon-color: white;
   }
