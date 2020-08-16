@@ -10,16 +10,16 @@ body {
 
 a {
 	text-decoration: none;
-	color: var(--font2-color);
+	color: var(--font-color-head);
 	background-color: var(--link-bg-color);
 }
 
 a:visited {
-	color: inherit;
+	color: var(--font-color-head);
 }
 
 a:hover, a:focus {
-	color: #591977;
+	color: var(--link-color);
 }
 
 p, address {
@@ -220,13 +220,14 @@ a.navbar-link{
 	--primary-color: #302AE6;
 	--secondary-color: #536390;
 	--font-color: #424242;
+	--font-color-head: #424242;
 	--bg-color: #fff;
 	--heading-color: #292922;
 	--border-color: #fff;
-	--accent-color: #672a83;
+	--accent-color: #591977;
 	--icon-color: black;
 	--link-color: #591977;
-	--accent-secondary-color: #7155a5;
+	--accent-secondary-color: #502c92;
 	--link-bg-color: #eaeaea;
 	--icon-color: black;
   }
@@ -235,6 +236,7 @@ a.navbar-link{
 	--primary-color: #110cb4;
 	--secondary-color: #818cab;
 	--font-color: #d6d6d6;
+	--font-color-head: #d6d6d6;
 	--font2-color: rgb(168, 168, 168);
 	--bg-color: #242424;
 	--heading-color: #818cab;
@@ -242,7 +244,7 @@ a.navbar-link{
 	--accent-color: #7e44eb;
 	--link-color: #7e44eb;
 	--icon-color: #e1e1ff;
-	--accent-secondary-color: #7e44eb;
+	--accent-secondary-color: #502c92;
 	--link-bg-color: #333333;
 	--icon-color: white;
   }

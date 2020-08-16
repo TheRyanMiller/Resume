@@ -10,16 +10,16 @@ body {
 
 a {
 	text-decoration: none;
-	color: var(--font2-color);
+	color: var(--font-color-head);
 	background-color: var(--link-bg-color);
 }
 
 a:visited {
-	color: inherit;
+	color: var(--font-color-head);
 }
 
 a:hover, a:focus {
-	color: #591977;
+	color: var(--link-color);
 }
 
 p, address {
@@ -37,7 +37,7 @@ p, address {
 
 header > h1, section > h1 {
 	font-family: "Oswald", "Georgia", "Times New Roman", serif;
-	color: #591977;
+	color: var(--accent-color);
 }
 
 header > h1 {
@@ -220,6 +220,7 @@ a.navbar-link{
 	--primary-color: #302AE6;
 	--secondary-color: #536390;
 	--font-color: #424242;
+	--font-color-head: #424242;
 	--bg-color: #fff;
 	--heading-color: #292922;
 	--border-color: #fff;
@@ -235,11 +236,12 @@ a.navbar-link{
 	--primary-color: #110cb4;
 	--secondary-color: #818cab;
 	--font-color: #d6d6d6;
+	--font-color-head: #d6d6d6;
 	--font2-color: rgb(168, 168, 168);
 	--bg-color: #242424;
 	--heading-color: #818cab;
 	--border-color: var(--bg-color);
-	--accent-color: #3f2275;
+	--accent-color: #7e44eb;
 	--link-color: #7e44eb;
 	--icon-color: #e1e1ff;
 	--accent-secondary-color: #502c92;

@@ -311,7 +311,7 @@ legend span {
   }
   
   input:checked + .slider {
-	background-color: var(--accent-color);
+	background-color: var(--link-color);
   }
   
   input:checked + .slider:before {
